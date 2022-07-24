@@ -1,0 +1,12 @@
+[package]
+name = "anda-web"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yew = "0.19.3"
+patternfly-yew = "0.2.0"
+# This is added as a temporary fix for a Cargo bug. See: https://github.com/rust-lang/cargo/issues/9738
+indexmap = "=1.6.2"
